@@ -1,0 +1,24 @@
+{
+  "name": "mediaserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesloppyguy/MediaServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesloppyguy/MediaServer/issues"
+  },
+  "homepage": "https://github.com/thesloppyguy/MediaServer#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
